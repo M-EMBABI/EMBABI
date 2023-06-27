@@ -1,0 +1,25 @@
+/*
+ * DIO_FINAL.h
+ *
+ * Created: 2/12/2023 6:13:22 AM
+ *  Author: MOHAMMED
+ */ 
+
+
+#ifndef DIOFINAL_H_
+#define DIOFINAL_H_
+
+	void DIO_SET_PIN(unsigned char port,unsigned char pin,unsigned char dir);
+	
+	/////////////////////////////////////////////////////////////////////////////////////////
+	void DIO_WRITE_PIN(unsigned char port,unsigned char pin,unsigned char val);
+	
+	////////////////////////////////////////////////////////////////////////
+	unsigned char DIO_u8read(unsigned char port,unsigned char pin);
+	
+	/////////////////////////////////////////////////////////////////////////////////////
+	void DIO_toggle_pin(unsigned char port,unsigned char pin);
+	
+	///////////////////////////////////////////////////////////////////
+	
+#endif
