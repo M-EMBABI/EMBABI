@@ -1,10 +1,3 @@
-/*
- * ULTRASONIC.c
- *
- * Created: 6/16/2023 3:12:53 PM
- *  Author: MOHAMMED
- */ 
-
 
 #include <avr/io.h>
 #include "LCD.h"
